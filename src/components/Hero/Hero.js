@@ -12,7 +12,8 @@ const Hero = (props) => (
       My Personal Portfolio
     </SectionTitle>
     <SectionText>
-    As a personal mission, I strive to be self-motivated and eager to learn and get more exposure to the tools and technologies that are being used.
+      As a personal mission, I strive to be self-motivated, eager to learn
+      and get more exposure to the tools and technologies that are being used.
     </SectionText>
   </LeftSection>
 </Section>
