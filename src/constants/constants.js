@@ -2,9 +2,9 @@ export const projects = [
   {
     title: 'ThingsToDo-Yelpcamp',
     description: "YelpCamp is a website where users can create and review campgrounds location. In order to review or create a campground, you must have an account. This project was part of Colt Steele's web dev course on Udemy.",
-      image: '/images/1.jpg',
+      image: '/images/1.png',
       tags: ['Mongo', 'Express', 'Javascript', 'Node', 'Bootstrap'],
-    source: 'https://google.com',
+    source: 'https://fast-lake-75847.herokuapp.com/campgrounds',
     visit: 'https://github.com/mikey4code/ThingsToDo-Yelpcamp',
     id: 0,
   },
