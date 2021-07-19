@@ -14,24 +14,21 @@ const Footer = () => {
       </LinkColumn>
       <LinkColumn>
         <LinkTitle>Email</LinkTitle>
-        <LinkItem href="mailto:contact@jsmastery.com">
-          contact@jsmastery.com
+        <LinkItem href="mailto:mikeychowyen@gmail.com">
+          mikeychowyen@gmail.com
         </LinkItem>
       </LinkColumn>
     </LinkList>
     <SocialIconsContainer>
       <CompanyContainer>
-        <Slogan>Innovating one project at a time</Slogan>
+        <Slogan>Just do it!!</Slogan>
       </CompanyContainer>
       <SocialContainer>
-        <SocialIcons href="https://google.com">
+        <SocialIcons href="https://github.com/mikey4code">
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://google.com">
+        <SocialIcons href="https://www.linkedin.com/in/mikey-chow-yen-604303178/">
           <AiFillLinkedin size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://google.com">
-          <AiFillInstagram size="3rem" />
         </SocialIcons>
       </SocialContainer>
     </SocialIconsContainer>

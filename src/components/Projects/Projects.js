@@ -11,6 +11,7 @@ const Projects = () => (
     <GridContainer>
       {projects.map((p, i) => {
         return (
+          
           <BlogCard key={i}>
           <Img src={p.image} />
             <TitleContent>
@@ -18,6 +19,7 @@ const Projects = () => (
               <Hr />
             </TitleContent>
             <CardInfo className="card-info">{p.description}</CardInfo>
+            <Hr />
             <div>
               <TitleContent>Stack</TitleContent>
               <TagList>
@@ -27,8 +29,10 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={p.visit}>Code</ExternalLinks>
-              <ExternalLinks href={p.source}>Source</ExternalLinks>
+              <ExternalLinks href={p.visit}>Code </ExternalLinks>
+              {p.source.length > 0 &&
+                <ExternalLinks href={p.source}>Source</ExternalLinks>
+              }
             </UtilityList>
           </BlogCard>
         );
