@@ -31,7 +31,11 @@ const GlobalStyles = createGlobalStyle`
   li{
     list-style: none;
   }
-
+  .read-more-less--more,
+  .read-more-less--less {
+    color: #999;
+  }
+  
 `;
 
 export default GlobalStyles;

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import ReactReadMoreReadLess from "react-read-more-read-less";
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
@@ -18,7 +18,17 @@ const Projects = () => (
               <HeaderThree title>{p.title}</HeaderThree>
               <Hr />
             </TitleContent>
-            <CardInfo className="card-info">{p.description}</CardInfo>
+            <CardInfo className="card-info">
+              <ReactReadMoreReadLess
+                charLimit={100}
+                readMoreText={"Read more ▼"}
+                readLessText={"Read less ▲"}
+                readMoreClassName="read-more-less--more"
+                readLessClassName="read-more-less--less"
+              >
+                {p.description}
+              </ReactReadMoreReadLess>
+            </CardInfo>
             <Hr />
             <div>
               <TitleContent>Stack</TitleContent>
