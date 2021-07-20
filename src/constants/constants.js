@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'BankingQue',
     description:"Banking Que is the name of the project and the goal of this project is to make an easy and smooth banking experience for customers and enforce the idea of social distancing in this current pandemic. The customers will be able to Register or Login, open a new account, get a credit card, debit card, transfer between accounts from the comforts of their car.",
-    image: '/images/2.jpg',
+    image: '/images/2.png',
     tags: ['Vue', 'Node', 'Express', 'SQLite' ],
     source: '',
     visit: 'https://github.com/mikey4code/BankingQue',
@@ -20,7 +20,7 @@ export const projects = [
   {
     title: 'DocMerge',
     description: "This is a program that takes all the content from a doc as a string variable and populate them into a .doc or .txt file.",
-      image: '/images/3.jpg',
+      image: '/images/3.png',
       tags: ['Java', 'Apachi Poi'],
     source: '',
     visit: 'https://github.com/mikey4code/DocMerge',
@@ -37,10 +37,11 @@ export const projects = [
   },
 ];
 
-export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
-];
+export const AccomplishmentData =  [
+      { number: 20, text: 'Open Source Projects'},
+      { number: 1000, text: 'Students', },
+      { number: 1900, text: 'Github Followers', },
+      { number: 5000, text: 'Github Stars', },
+    
+    ];
+    

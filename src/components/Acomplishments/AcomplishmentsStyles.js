@@ -3,7 +3,8 @@ import styled from "styled-components"
 export const Boxes = styled.div`
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  height: 300px;
   gap: 24px;
   margin: 24px 0 40px;
 
@@ -25,20 +26,26 @@ export const Boxes = styled.div`
 export const Box = styled.div`
   background: #212D45;
   border-radius: 12px;
-  height: 144px;
+  height: 260px;
   padding: 24px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: left;
+  line-height: 1.6;
+  
   @media ${props => props.theme.breakpoints.lg} {
-    height: 210px;
+    height: 150px;
 
   }
 
   @media ${props => props.theme.breakpoints.md} {
-    height: 135px;
-    padding: 16px;
+    height: 148px;
+    padding: 12px;
   }
 
   @media ${props => props.theme.breakpoints.sm} {
-    height: 110px;
+    height: 130px;
     padding: 12px;
     
     &:nth-child(2n){
@@ -49,7 +56,7 @@ export const Box = styled.div`
 export const BoxNum = styled.h5`
   font-style: normal;
   font-weight: 600;
-  font-size: 36px;
+  font-size: 20px;
   line-height: 40px;
   letter-spacing: 0.01em;
   color: #FFFFFF;
@@ -66,10 +73,11 @@ export const BoxNum = styled.h5`
 `
 
 export const BoxText = styled.p`
+  display: flex;  
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 30px;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.75);
 
@@ -125,10 +133,31 @@ export const JoinText = styled.h5`
 `
 
 export const IconContainer = styled.div`
+  background: #212D45;
+  border-radius: 12px;
+  height: 100%;
+  width: 20%;
+  padding: 24px;
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  line-height: 1.2;
 
   @media ${props => props.theme.breakpoints.sm}{
-    width: 160px;
+    width: 50px;
     justify-content: space-between;
   }
 `
+
+export const SocialIcons = styled.a`
+  transition: 0.3s ease;
+  color: white;
+  border-radius: 50px;
+  padding: 8px;
+  &:hover {
+      background-color: #212d45;
+      transform: scale(1.2);
+      cursor: pointer;
+      
+    }
+  `

@@ -35,7 +35,13 @@ const GlobalStyles = createGlobalStyle`
   .read-more-less--less {
     color: #999;
   }
-  
+  #see {
+    color: #999;
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
 `;
 
 export default GlobalStyles;
