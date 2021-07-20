@@ -35,19 +35,19 @@ export const Box = styled.div`
   line-height: 1.6;
   
   @media ${props => props.theme.breakpoints.lg} {
-    height: 150px;
-
+    height: 250px;
+    width: 500px;
   }
 
   @media ${props => props.theme.breakpoints.md} {
-    height: 148px;
+    height: 158px;
     padding: 12px;
   }
 
   @media ${props => props.theme.breakpoints.sm} {
     height: 130px;
     padding: 12px;
-    
+    width: 390px;
     &:nth-child(2n){
       grid-row:2;
     }
@@ -63,11 +63,12 @@ export const BoxNum = styled.h5`
   margin-bottom: 8px;
 
   @media ${props => props.theme.breakpoints.md} {
-    font-size: 28px;
+    font-size: 18px;
     line-height: 32px;
+    align-items: left;
   }
   @media ${props => props.theme.breakpoints.sm} {
-    font-size: 24px;
+    font-size: 14px;
     line-height: 26px;
 }
 `
@@ -76,7 +77,7 @@ export const BoxText = styled.p`
   display: flex;  
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.75);
@@ -84,10 +85,11 @@ export const BoxText = styled.p`
   @media ${props => props.theme.breakpoints.md}{
     font-size: 16px;
     line-height: 20px;
+    align-items: left;
   };
 
   @media ${props => props.theme.breakpoints.sm} {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 14px;
   }
 `
@@ -136,7 +138,6 @@ export const IconContainer = styled.div`
   background: #212D45;
   border-radius: 12px;
   height: 100%;
-  width: 20%;
   padding: 24px;
   display: flex;
   flex-wrap: wrap;
@@ -144,20 +145,8 @@ export const IconContainer = styled.div`
   line-height: 1.2;
 
   @media ${props => props.theme.breakpoints.sm}{
-    width: 50px;
+    width: 80px;
     justify-content: space-between;
   }
 `
 
-export const SocialIcons = styled.a`
-  transition: 0.3s ease;
-  color: white;
-  border-radius: 50px;
-  padding: 8px;
-  &:hover {
-      background-color: #212d45;
-      transform: scale(1.2);
-      cursor: pointer;
-      
-    }
-  `
