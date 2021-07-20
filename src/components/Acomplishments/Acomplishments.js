@@ -1,10 +1,8 @@
 import React from 'react';
 
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText, SocialIcons, IconContainer, Join, joi, Title, SubTitle, Boxa } from './AcomplishmentsStyles';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { AcomplishmentsData } from '../../constants/constants';
-import { ListItem } from '../Technologies/TechnologiesStyles';
+import { Section, SectionTitle } from '../../styles/GlobalComponents';
+import { Box, Boxes, BoxNum, BoxText, IconContainer } from './AcomplishmentsStyles';
+import {  SiUdemy } from 'react-icons/si';
 
 const Acomplishments = () => (
   <Section>
