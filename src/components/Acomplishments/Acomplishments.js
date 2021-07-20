@@ -14,7 +14,7 @@ const Acomplishments = () => (
         <BoxText>Udemy</BoxText>
         <BoxText>Issued Jul 2021</BoxText>
         <BoxText>Credential ID Mikey ChowYen</BoxText>
-        <BoxText> <a id="see" href= "https://www.linkedin.com/in/mikey-chow-yen-604303178/">See Credential</a></BoxText>
+        <BoxText> <a id="see" href= "https://www.udemy.com/certificate/UC-457c80c5-0e28-4f63-8cba-5172e972eaa6/">See Credential</a></BoxText>
       </Box>
   </Boxes>
 </Section>
