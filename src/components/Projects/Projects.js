@@ -41,7 +41,7 @@ const Projects = () => (
             <UtilityList>
               <ExternalLinks href={p.visit}>Code </ExternalLinks>
               {p.source.length > 0 &&
-                <ExternalLinks href={p.source}>Source</ExternalLinks>
+                <ExternalLinks href={p.source}>Live Demo</ExternalLinks>
               }
             </UtilityList>
           </BlogCard>
